@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "admin",
+      "status": "active",
+      "permissions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "id": "b48b",
+      "name": "Nia",
+      "email": "test11@gmail.com",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": "72ab",
+      "name": "Test",
+      "email": "Test@gmail.com",
+      "role": "Admin",
+      "status": "inactive"
+    },
+    {
+      "id": "2be2",
+      "name": "ndwj",
+      "email": "knknkjnkjk@kjsw.wc",
+      "role": "viewer",
+      "status": "active"
+    },
+    {
+      "id": "536a",
+      "name": "ed",
+      "email": "njh@kj.ooj",
+      "role": "test",
+      "status": "active"
+    },
+    {
+      "id": "1af8",
+      "name": "ferhrtj",
+      "email": "jkkj2@jjds.we",
+      "role": "Admin",
+      "status": "inactive"
+    }
+  ],
+  "roles": [
+    {
+      "id": "2",
+      "name": "user",
+      "permissions": [
+        "read",
+        "write"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "viewer",
+      "permissions": [
+        "read"
+      ]
+    },
+    {
+      "id": "6d96",
+      "name": "test",
+      "permissions": [
+        "read"
+      ]
+    },
+    {
+      "id": "f1a6",
+      "name": "Admin",
+      "permissions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    }
+  ]
+}
