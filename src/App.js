@@ -41,7 +41,6 @@ const App = () => {
   return (
     <Router>
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-        {/* Modern AppBar */}
         <AppBar position="sticky" sx={{ background: 'linear-gradient(90deg, #3f51b5, #1a237e)' }}>
           <Toolbar>
             <IconButton
@@ -95,7 +94,6 @@ const App = () => {
           </Box>
         </Drawer>
 
-        {/* Main Content */}
         <Container maxWidth="lg" sx={{ marginTop: 4 }}>
           <Routes>
             <Route path="/" element={<HomePage />} />

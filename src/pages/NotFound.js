@@ -7,7 +7,6 @@ import ErrorIcon from '@mui/icons-material/Error';
 const NotFound = () => {
   return (
     <Container maxWidth="sm" sx={{ textAlign: 'center', marginTop: 8 }}>
-      {/* Error Icon and Message */}
       <Box sx={{ marginBottom: 3 }}>
         <ErrorIcon sx={{ fontSize: 80, color: 'error.main' }} />
       </Box>
@@ -18,7 +17,6 @@ const NotFound = () => {
         Oops! The page you're looking for does not exist. Please check the URL or go back to the homepage.
       </Typography>
 
-      {/* Go to Home Button */}
       <Grid container justifyContent="center">
         <Grid item>
           <Link to="/">
