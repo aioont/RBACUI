@@ -28,6 +28,7 @@ This project implements a **Role-Based Access Control (RBAC)** User Interface, p
 
 ## Project Structure
 ### Directory Layout
+```
 
 rbac-ui/
 ├── node_modules/             # Project dependencies
@@ -51,33 +52,35 @@ rbac-ui/
 ├── package.json              # Project metadata and dependencies
 ├── package-lock.json         # Locked dependency tree
 └── README.md                 # Project documentation
-
+```
 
 
 ## Technology Stack
 
-React 18.3.1
-Material-UI (MUI) 6.1.8
-React Router DOM 7.0.1
-JSON Server (Mock Backend)
+- **Frontend**:
+  - React (v18.3.1)
+  - Material-UI (MUI) (v6.1.8)
+  - React Router DOM (v7.0.1)
+- **Mock Backend**:
+  - JSON Server
 
 
-Installation and Setup
+# Installation and Setup
 
-Clone the repository:
+### Clone the repository:
 git clone https://github.com/aioont/RBACUI.git
 
-Install dependencies:
+### Install dependencies:
 cd RBACUI
 npm install
 
-Start the Mock API server:
-# Install JSON Server globally if not installed
+### Start the Mock API server:
+### Install JSON Server globally if not installed
 npm install -g json-server
 
-# Start JSON Server
+## Start JSON Server
 json-server --watch db.json --port 3000
-# OR
+### OR
 npm run server
 
 Start the development server:
@@ -109,12 +112,12 @@ The mock API (`db.json`) contains the following structure:
 }
 ```
 
-## Key Features
-# User Management
+# Key Features
+## User Management
 - Add, edit, and delete users.
 - Assign roles and update statuses.
-# Role Management
+## Role Management
 - Create new roles.
 - Update role permissions dynamically.
-# Permissions
+## Permissions
 - Clearly view and manage permissions associated with each role.
