@@ -68,23 +68,23 @@ rbac-ui/
 # Installation and Setup
 
 ### Clone the repository:
-git clone https://github.com/aioont/RBACUI.git
+> git clone https://github.com/aioont/RBACUI.git
 
 ### Install dependencies:
-cd RBACUI
-npm install
+> cd RBACUI
+> npm install
 
 ### Start the Mock API server:
 ### Install JSON Server globally if not installed
-npm install -g json-server
+> npm install -g json-server
 
 ## Start JSON Server
-json-server --watch db.json --port 3000
+> json-server --watch db.json --port 3000
 ### OR
-npm run server
+> npm run server
 
-Start the development server:
-npm start
+### Start the development server:
+> npm start
 
 
 # API Structure
