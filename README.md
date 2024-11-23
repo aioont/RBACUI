@@ -72,6 +72,7 @@ rbac-ui/
 
 ### Install dependencies:
 > cd RBACUI
+
 > npm install
 
 ### Start the Mock API server:
@@ -80,7 +81,7 @@ rbac-ui/
 
 ## Start JSON Server
 > json-server --watch db.json --port 3000
-### OR
+###### OR
 > npm run server
 
 ### Start the development server:
