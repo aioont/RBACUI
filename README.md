@@ -122,3 +122,10 @@ The mock API (`db.json`) contains the following structure:
 - Update role permissions dynamically.
 ## Permissions
 - Clearly view and manage permissions associated with each role.
+- 
+
+
+
+https://github.com/user-attachments/assets/f3bc3b07-4220-41b4-8616-65efe4e1cbe4
+
+
